@@ -7,7 +7,7 @@ import { HomeModuleComponent } from '../Home-Module.component';
   styleUrls: ['./Header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  date = new Date('19-20-2039');
+  date = new Date();
   constructor() { }
 
   ngOnInit() {
